@@ -1,0 +1,23 @@
+h1{
+    background-color:rgb(247,100,174);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    border: 1px solidrgb(141,209,241);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    background-color:rgb(141,209,241);
+}
+.container>div{
+    border: 1px solid rgb(247,100,174);
+    height: 100px;
+    background-color: rgb(247,100,174);
+}
+#child1{
+    grid-area: 1/1/2/4 ;
+}
+#child5{
+    grid-area: 2/2/3/5;
+}
