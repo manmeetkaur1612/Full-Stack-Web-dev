@@ -1,0 +1,117 @@
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: 50px;
+}
+.Layout1{
+    border: 2px solid rgb(141,209,241) ;
+    border-radius: 10px;
+    width: 500px;
+    height: 580px; 
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(141,209,241);
+    margin: auto;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    background-color:#8dd1f1;
+    text-align: center;
+   
+}
+.container>div{
+
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 65px;
+}
+p{
+
+    margin-top:20px;
+    font-size: 26px;
+}
+#child1{
+    grid-area: 1/1/6/5;
+}
+.parent{
+    margin:50px 80px ;
+
+}
+#child8:hover{
+    background-color: blue;
+    color: white;
+}
+#child14{
+    background-color: red;
+    color: white;
+}
+#child5{
+    background-color:  black;
+    color: white;
+}
+#child9{
+    background-color:  black;
+    color: white;
+}
+#child13{
+    background-color:  black;
+    color: white;
+}
+#child17{
+    background-color:  black;
+    color: white;
+}
+#child16{
+    background-color:  black;
+    color: white;
+
+}
+#child2:hover{
+    background-color: blue;
+    color: white;
+}
+#child8:hover{
+    background-color: blue;
+    color: white;
+}#child3:hover{
+    background-color: blue;
+    color: white;
+}
+#child4:hover{
+    background-color: blue;
+    color: white;
+}
+#child6:hover{
+    background-color: blue;
+    color: white;
+}
+#child10:hover{
+    background-color: blue;
+    color: white;
+}
+#child11:hover{
+    background-color: blue;
+    color: white;
+}
+#child12:hover{
+    background-color: blue;
+    color: white;
+}
+#child7:hover{
+    background-color: blue;
+    color: white;
+}
+#child15:hover{
+    background-color: blue;
+    color: white;
+}
+h1:hover{
+    color: navy;
+}
